@@ -1,0 +1,18 @@
+{
+  "name": "ezys",
+  "owner": {
+    "name": "Ezys"
+  },
+  "metadata": {
+    "description": "Ezys plugins for AI agents and developer tools."
+  },
+  "plugins": [
+    {
+      "name": "docs",
+      "source": "plugins/docs",
+      "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
+      "category": "Developer Tools",
+      "tags": ["ezys","documentation","mcp","fx","stablecoins","payments"]
+    }
+  ]
+}

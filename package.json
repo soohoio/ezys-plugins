@@ -1,0 +1,14 @@
+{
+  "name": "@soohoio/ezys-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:live": "node scripts/check.mjs --live",
+    "sync:skill": "node scripts/sync-skill.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
