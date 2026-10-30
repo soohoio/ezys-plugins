@@ -33,8 +33,23 @@ jobs:
         with:
           node-version: 22
 
+      # `shell: bash` runs with -o pipefail: a failed sync must fail the step,
+      # not hand an empty `changed` to the steps below through tee.
       - id: sync
+        shell: bash
         run: node scripts/sync-skill.mjs | tee -a "$GITHUB_OUTPUT"
+
+      # The published file went back to what main already has: an open sync PR
+      # would now copy an outdated SKILL.md, so close it.
+      - name: Close a sync pull request that is no longer needed
+        if: steps.sync.outputs.changed == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pr=$(gh pr list --head "$BRANCH" --state open --json number --jq '.[0].number')
+          if [ -n "$pr" ]; then
+            gh pr close "$pr" --delete-branch --comment "https://docs.ezys.io/SKILL.md matches main again; nothing to sync."
+          fi
 
       - if: steps.sync.outputs.changed == 'true'
         run: node scripts/check.mjs --live
