@@ -1,0 +1,32 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
+  "homepage": "https://docs.ezys.io/",
+  "repository": "https://github.com/soohoio/ezys-plugins",
+  "keywords": ["ezys","documentation","mcp","fx","stablecoins","payments"],
+  "author": {
+    "name": "Ezys",
+    "url": "https://docs.ezys.io/"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Ezys Docs",
+    "shortDescription": "Read Ezys docs and the Partner API contract.",
+    "longDescription": "Search and read the Ezys documentation — quotes, intents, execution status, receipts, webhooks, authentication and request signing — and look up Partner API operations from the OpenAPI document, through a read-only MCP server.",
+    "developerName": "Ezys",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://docs.ezys.io/",
+    "defaultPrompt": [
+      "How do I sign a request to the Ezys API?",
+      "Show me the request body for submitting an Ezys intent.",
+      "When is an Ezys receipt issued?"
+    ],
+    "composerIcon": "./assets/ezys-logo.png",
+    "logo": "./assets/ezys-logo.png"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "docs",
+  "displayName": "Ezys Docs",
+  "version": "0.1.0",
+  "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
+  "author": {
+    "name": "Ezys",
+    "url": "https://docs.ezys.io/"
+  },
+  "homepage": "https://docs.ezys.io/",
+  "repository": "https://github.com/soohoio/ezys-plugins",
+  "keywords": [
+    "ezys",
+    "documentation",
+    "mcp",
+    "fx",
+    "stablecoins",
+    "payments"
+  ],
+  "icon": "./assets/ezys-logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

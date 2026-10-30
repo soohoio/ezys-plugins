@@ -1,0 +1,19 @@
+{
+  "name": "ezys",
+  "metadata": {
+    "description": "Ezys plugins for AI agents and developer tools."
+  },
+  "owner": {
+    "name": "Ezys",
+    "url": "https://docs.ezys.io/"
+  },
+  "plugins": [
+    {
+      "name": "docs",
+      "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
+      "source": "./plugins/docs",
+      "category": "development",
+      "homepage": "https://docs.ezys.io/"
+    }
+  ]
+}

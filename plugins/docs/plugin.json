@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "docs",
+  "version": "0.1.0",
+  "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
+  "homepage": "https://docs.ezys.io/",
+  "repository": "https://github.com/soohoio/ezys-plugins",
+  "keywords": ["ezys","documentation","mcp","fx","stablecoins","payments"],
+  "author": {
+    "name": "Ezys",
+    "url": "https://docs.ezys.io/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ezys-docs": {
+      "type": "http",
+      "url": "https://docs.ezys.io/mcp",
+      "note": "Read-only Ezys documentation: search, list_pages, read_page, get_api_operation."
+    }
+  }
+}
