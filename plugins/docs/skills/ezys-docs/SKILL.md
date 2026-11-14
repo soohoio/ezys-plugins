@@ -29,7 +29,7 @@ Within the API Reference:
 | [Idempotency](https://docs.ezys.io/api-reference/idempotency.md) | `X-Idempotency-Key`, replay of completed requests, the retention window. |
 | [Quote API](https://docs.ezys.io/api-reference/quote-api.md) | Indicative quotes and firm (lockable) quotes. |
 | [Intent API](https://docs.ezys.io/api-reference/intent-api.md) | Submitting an intent, technical fields to resolve before signing, acceptance and rejection. |
-| [Status API](https://docs.ezys.io/api-reference/status-api.md) | Execution phases and the `events[]` history. |
+| [Status API](https://docs.ezys.io/api-reference/status-api.md) | Execution phases, the `events[]` history and the `failure` reason of a failed execution. |
 | [Receipts API](https://docs.ezys.io/api-reference/receipts-api.md) | When a receipt is issued and what it contains. |
 | [Webhooks](https://docs.ezys.io/api-reference/webhooks.md) | Registering endpoints, event format, signature verification, delivery and resend. |
 | [Error Handling & Retries](https://docs.ezys.io/api-reference/errors.md) | Which failures are safe to retry, and how. |
