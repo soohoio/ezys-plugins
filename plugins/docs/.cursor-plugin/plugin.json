@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "displayName": "Ezys Docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
   "author": {
     "name": "Ezys"
@@ -9,7 +9,14 @@
   "homepage": "https://docs.ezys.io/",
   "repository": "https://github.com/soohoio/ezys-plugins",
   "logo": "./assets/ezys-logo.png",
-  "keywords": ["ezys","documentation","mcp","fx","stablecoins","payments"],
+  "keywords": [
+    "ezys",
+    "documentation",
+    "mcp",
+    "fx",
+    "stablecoins",
+    "payments"
+  ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json"
 }

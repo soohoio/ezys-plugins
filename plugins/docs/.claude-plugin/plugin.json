@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "docs",
   "displayName": "Ezys Docs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read the Ezys documentation and the Partner API contract while integrating with Ezys.",
   "author": {
     "name": "Ezys",
